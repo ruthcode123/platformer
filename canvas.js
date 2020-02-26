@@ -8,6 +8,8 @@ let CTX = CANVAS.getContext("2d")
 
 // draw a blue rectangle the size of the screen
 function ERASE() {
-  CTX.fillStyle = "Pink"
+  CTX.fillStyle = "red"
   CTX.fillRect(0, 0, CANVAS.width, CANVAS.height)
 }
+
+let GRIDSIZE = CANVAS.height /12
